@@ -1,0 +1,19 @@
+.leader {
+  min-height: 100vh;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5rem;
+  text-align: center;
+  &__heading {
+    font-size: 2rem;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+  &__description {
+    font-size: 1rem;
+    color: $darkGray;
+  }
+}

@@ -73,4 +73,24 @@ body {
   padding: 2rem;
   letter-spacing: 0.2rem;
   margin: 2rem;
+}
+
+.leader {
+  min-height: 100vh;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5rem;
+  text-align: center;
+}
+.leader__heading {
+  font-size: 2rem;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.leader__description {
+  font-size: 1rem;
+  color: hsl(0deg, 0%, 55%);
 }/*# sourceMappingURL=styles.css.map */
