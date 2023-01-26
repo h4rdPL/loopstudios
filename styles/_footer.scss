@@ -1,0 +1,31 @@
+.footer {
+  background-color: $black;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  color: $white;
+  text-align: center;
+  &__logo {
+    justify-self: center;
+  }
+  &__copy {
+    color: $darkGray;
+  }
+  &__nav {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+  }
+
+  &__link {
+    color: $white;
+  }
+}
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
