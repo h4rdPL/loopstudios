@@ -13,6 +13,11 @@ $primaryFont: "Alata", sans-serif;
 $secondaryFont: "Josefin Sans", sans-serif;
 $fontSize: 15px;
 
+// padding
+
+$globalPadding: 3rem 6rem;
+$globalPaddingLeftAndRight: 6rem;
+
 // basic reset
 
 *,
@@ -37,4 +42,8 @@ img {
 
 body {
   font-family: $primaryFont;
+}
+
+.test {
+  width: 100%;
 }
